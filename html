@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta http-equiv="content-type" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Using jQuery Alert Boxes (John Locke)</title>
+    <meta name="author" content="Lockedown Design" />
+  </head>
+<body>
+  <header class="header">
+    <div class="center">
+      <nav>
+         <ul>
+            <li><a href="/services">About</a></li>
+            <li><a href="#" onclick="$('.alert2').show()">Contact</a></li>
+            <li><a href="#" onclick="$('.alert2').show()">Videos</a></li>
+            <li><a href="#" onclick="$('.alert2').show()">Blog</a></li>
+            <li><a href="#" onclick="$('.alert2').show()">Links</a></li>
+         </ul>
+      </nav>
+    </div>
+ </header>
+    <div class="alert alert2" id="alert2" style="display: none"> 
+      <a class="close" onclick="$('#alert2, .alert').hide()">×</a>  
+        <strong>This is an alert.</strong> Let&#8217;s see if you can click the &#8220;X&#8221; to close this.. 
+    </div>
+          <div class="content center">
+            <h1>Foo Headline</h1>
+            <p>Bacon ipsum dolor sit amet ribeye tri-tip tempor salami occaecat. Anim turkey pork loin shank pig biltong elit pork chop aliqua fatback ullamco. Venison adipisicing in, spare ribs incididunt exercitation boudin ut pig fugiat. Consectetur pork chop tongue culpa ut salami pancetta bresaola ex ham hock short ribs quis. Tenderloin ad leberkas cupidatat andouille sint kielbasa in incididunt. Fugiat labore incididunt in t-bone.</p>
+           
+            </div>
+   <div class="alert center" style="display: none"> 
+          <a class="close" onclick="$('.alert').hide()">×</a>  
+            <strong>This is the footer alert.</strong> See if you can close this by clicking the &#8220;x&#8221;. 
+        </div>
+  
+  <footer class="footer">
+    <div class="center">
+
+        <ul class="footer-links">
+          <li class="first"><a href="#" onclick="$('.alert').show()">Link 1</a></li>
+          <li><a href="#" onclick="$('.alert').show()">Link 2</a></li>
+          <li><a href="#" onclick="$('.alert').show()">Link 3</a></li>
+          <li><a href="#" onclick="$('.alert').show()">Link 4</a></li>
+          <li><a href="#" onclick="$('.alert').show()">Link 5</a></li>
+        </ul>
+    </div>
+  </footer>
+</body>
+</html>
+            
